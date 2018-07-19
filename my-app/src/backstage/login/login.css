@@ -1,0 +1,98 @@
+html,
+body {
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+#root .item {
+  height: 100%;
+}
+#root .login {
+  width: 100%;
+  height: 100% ;
+  position: relative;
+  background-color: #1c77ac;
+  background-image: url(../img/light.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  color: #fff;
+}
+#root .login .bj {
+  width: 500px;
+  height: 360px;
+  background: #fff;
+  opacity: 0.4;
+  position: absolute;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -180px;
+}
+#root .login .login-content {
+  width: 500px;
+  height: 360px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -180px;
+}
+#root .login .login-content .header {
+  height: 100px;
+  padding-top: 30px;
+  text-align: center;
+}
+#root .login .login-content .header img {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+#root .login .login-content .header p {
+  font-size: 12px;
+  margin-top: 8px;
+}
+#root .login .login-content .login-box {
+  width: 380px;
+  height: 170px;
+  margin: 10px auto 0;
+}
+#root .login .login-content .login-box li {
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+#root .login .login-content .login-box li i {
+  width: 40px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  font-size: 20px;
+  background: #474747;
+  color: #fff;
+}
+#root .login .login-content .login-box li input {
+  width: 336px;
+  height: 40px;
+  background: #fff;
+  text-indent: 5px;
+  color: #666;
+  float: left;
+}
+#root .login .login-content .login-box li .btn {
+  display: block;
+  width: 374px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  background: #1c77ac;
+  color: #fff;
+  cursor: pointer;
+}
+#root .login .login-content .login-box li.dl {
+  margin-top: 30px;
+}

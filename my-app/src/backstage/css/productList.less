@@ -1,0 +1,231 @@
+.product-list{
+    width:100%;
+    
+   // 分类列表 和会员列表专用
+   .product-search{
+       margin-left:15px;
+        height:40px;
+        line-height: 40px;
+        display: flex;
+        li{
+            margin-right:20px;
+            input{
+                color:#666;
+                padding-left:6px;
+                margin-left:10px;
+                width:200px;
+                height:30px;
+                border:1px solid #ccc;
+            }
+            select{
+                width:200px;
+                height:30px;
+                color:#666;
+                border:1px solid #ccc;
+            }
+            a{
+                font-size:12px;
+                display: inline-block;
+                width:40px;
+                height:23px;
+                border-radius: 6px;
+                text-align: center;
+                line-height: 23px;
+                vertical-align: middle;
+                background: #6fb3e0;
+                color:#fff;
+                margin-right:20px;
+                cursor: pointer;
+                &:nth-child(2){
+                    background: #2c3e50;
+                }
+            }
+        }
+    }
+    // 交易金额用
+    .deal{
+        height:100px;
+        display: flex;
+        .money-list{
+            width:300px;
+            height:100px;
+            // background: #6fb3e0;
+            text-align: center;
+            color:#F33;
+            span{
+                height:60px;
+                line-height: 40px;
+                font-size:18px;
+            }
+            p{
+                height:40px;
+                background: #ededed;
+                color:#999;
+                line-height: 40px;
+            }
+        }
+        .money-item{
+            width:100px;
+            height:80px;
+            background: #6fb3e0;
+            text-align: center;
+            color:#fff;
+             padding-top:10px;
+            a{
+               
+                i{
+                   line-height: 40px;
+                    font-size:35px;
+                    margin-top:10px;
+                    color:#fff;
+                }
+            }
+        }
+    }
+    // 分类列表 和会员列表 交易金额  退款管理 按钮
+    .product-btn{
+        margin-top:10px;
+        width:98%;
+        height:40px;
+        // border:1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        .btn-left{
+            margin-left:15px;
+            a{
+                font-size: 12px;
+                margin-right:10px;
+                display: inline-block;
+                width:90px;
+                height:20px;
+                line-height: 20px;
+                text-align: center;
+                border:4px solid #ffb752;
+                border-radius: 5px;
+                margin-top:10px;
+                background: #ffb752;
+                color:#fff;
+                i{
+                    color:#fff;
+                    margin-right:5px;
+                }
+                // 删除
+                &.delete{
+                    border:4px solid #d15b47;
+                    background: #d15b47;
+                    
+                }
+                // 退款
+                &.refund{
+                    border:4px solid #1ab394;
+                    background: #1ab394;
+                }
+                // 交易金额使用
+                &.whole{
+                    border:4px solid #6fb3e0;
+                    background: #6fb3e0;
+                }
+            }
+        }
+        .number{
+            line-height: 60px;
+            margin-right:10px;
+        }
+    }
+    // 表单
+    .table-list{
+        margin-left:15px;
+        margin-top:20px;
+        margin-bottom:10px;
+       table{
+            width:98%;
+            border: 1px solid #ddd;
+            border-collapse: collapse;
+            text-align: center;
+            thead{
+                tr{
+                    height:50px;
+                    // background: #f4efe7;
+                   color:#333;
+                }
+            }
+            tbody{
+                font-size:12px;
+                tr{
+                    height:40px;
+                    color:#666;
+                    td{
+                        .dian{
+                            font-size:20px;
+                            color:#1ab394; 
+                            vertical-align: middle;
+                        }
+                        span{
+                            vertical-align: middle;
+                            color:#1ab394; 
+                        }
+                        a{
+                            display: inline-block;
+                            width:30px;
+                            height:20px;
+                            color:#fff;
+                            border-radius: 5px;
+                            line-height: 20px;
+                            background: #87b87f;
+                            margin-right:10px;
+                            &.blue{
+                                background: #6fb3e0;
+                            }
+                            &.yellow{
+                                background: #ffb752;
+                            }
+                            i{
+                                color:#fff;
+                                font-size:14px;
+                            }
+                        }
+                        &.message{
+                            width:400px;
+                            color:#d15b47;
+                            line-height:26px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        // 订单管理
+        &.mangaement{
+            tbody{
+                tr{
+                //    height:60px;
+                //    line-height: 60px;
+                   td{
+                        word-wrap: break-word;
+                        word-break: break-all;
+                        // vertical-align: middle;
+                        font-family: "新宋体";
+                        text-align: center;
+                        a{
+                           
+                            img{
+                                display: inline-block;
+                                border: 1px solid #dddddd;
+                                width: 45px;
+                                height: 45px;
+                                margin-right:5px;
+                                vertical-align: middle;
+                            }
+                        }
+                        .jia{
+                            display: inline-block;
+                            margin-left:16px;
+                            color:#000;
+                        }
+                   }
+                }
+            }
+        }
+    }
+}
+

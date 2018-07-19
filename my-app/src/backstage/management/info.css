@@ -1,0 +1,149 @@
+.tab_box {
+  height: 1000px;
+  display: none;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  background: #fff;
+}
+.tab_box .tab_nav {
+  width: 95%;
+  height: 40px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.tab_box .tab_nav h3 {
+  margin-left: 15px;
+}
+.tab_box .tab_nav a {
+  color: #1AB394;
+}
+.tab_box .tab_nav a {
+  padding: 10px 15px;
+  font-size: 16px;
+  display: inline-block;
+  border-radius: 4px 4px 0 0;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.tab_box .tab_nav a.cur {
+  background: #fff;
+}
+.tab_content {
+  width: 100%;
+  margin: 0 auto 20px;
+  background: #fff;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.tab_content p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.btn_box {
+  margin: 15px 2.5%;
+}
+.btn_box a {
+  padding: 6px 12px;
+  color: #fff;
+  background: #18bc9c;
+  border-radius: 3px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 12px;
+  float: left;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.btn_box a.reload,
+.btn_box a.btn_more {
+  background: #2c3e50;
+}
+.btn_box a.btn_remove,
+.btn_box a.btn_load {
+  background: #e74c3c;
+}
+.btn_box a i {
+  display: inline-block;
+  font-size: 12px;
+  color: #fff;
+  margin-right: 3px;
+}
+.table-striped {
+  margin: 0 auto;
+  border: 1px solid #f4f4f4;
+  border-collapse: collapse!important;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.table-striped td,
+.table-striped th {
+  border: 1px solid #f4f4f4;
+}
+.table-striped thead th {
+  width: 36px;
+  height: 44px;
+  line-height: 44px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  vertical-align: middle;
+}
+.table-striped td {
+  height: 40px;
+  color: #666;
+  text-align: center;
+  vertical-align: middle;
+}
+.table-striped td.news_tab {
+  width: 45%;
+}
+.table-striped td img {
+  height: 80%;
+  margin: 5% 0 0 0;
+}
+.text-success {
+  color: #18bc9c;
+}
+.table-striped td .btn-xs {
+  padding: 3px 6px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 2px;
+  color: #fff;
+  margin-right: 5px;
+}
+.table-striped td .btn-xs .iconfont {
+  font-size: 12px;
+}
+.table-striped td .btn-editone {
+  background: #18bc9c;
+  cursor: pointer;
+}
+.table-striped td .btn-delone {
+  background: #e74c3c;
+  cursor: pointer;
+}
+.page_box {
+  float: right;
+  margin-right: 2.5%;
+  margin-top: 15px;
+}
+.page_box a {
+  padding: 3px 6px;
+  color: #999;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.page_box a.cur {
+  background: #d8e0e6;
+}
+.table-striped tbody tr:hover {
+  background: #f9f9f9;
+}
+.table-striped tbody tr:nth-child(2n+1) {
+  background: #f9f9f9;
+}

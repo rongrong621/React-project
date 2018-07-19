@@ -1,0 +1,17 @@
+.page_box {
+  float: right;
+  margin-right: 2.5%;
+  margin-top: 15px;
+}
+.page_box a {
+  padding: 3px 6px;
+  color: #999;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.page_box a.cur {
+  background: #d8e0e6;
+}

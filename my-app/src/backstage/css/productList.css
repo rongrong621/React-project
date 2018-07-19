@@ -1,0 +1,197 @@
+.product-list {
+  width: 100%;
+}
+.product-list .product-search {
+  margin-left: 15px;
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+}
+.product-list .product-search li {
+  margin-right: 20px;
+}
+.product-list .product-search li input {
+  color: #666;
+  padding-left: 6px;
+  margin-left: 10px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ccc;
+}
+.product-list .product-search li select {
+  width: 200px;
+  height: 30px;
+  color: #666;
+  border: 1px solid #ccc;
+}
+.product-list .product-search li a {
+  font-size: 12px;
+  display: inline-block;
+  width: 40px;
+  height: 23px;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 23px;
+  vertical-align: middle;
+  background: #6fb3e0;
+  color: #fff;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.product-list .product-search li a:nth-child(2) {
+  background: #2c3e50;
+}
+.product-list .deal {
+  height: 100px;
+  display: flex;
+}
+.product-list .deal .money-list {
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  color: #F33;
+}
+.product-list .deal .money-list span {
+  height: 60px;
+  line-height: 40px;
+  font-size: 18px;
+}
+.product-list .deal .money-list p {
+  height: 40px;
+  background: #ededed;
+  color: #999;
+  line-height: 40px;
+}
+.product-list .deal .money-item {
+  width: 100px;
+  height: 80px;
+  background: #6fb3e0;
+  text-align: center;
+  color: #fff;
+  padding-top: 10px;
+}
+.product-list .deal .money-item a i {
+  line-height: 40px;
+  font-size: 35px;
+  margin-top: 10px;
+  color: #fff;
+}
+.product-list .product-btn {
+  margin-top: 10px;
+  width: 98%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-list .product-btn .btn-left {
+  margin-left: 15px;
+}
+.product-list .product-btn .btn-left a {
+  font-size: 12px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 90px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border: 4px solid #ffb752;
+  border-radius: 5px;
+  margin-top: 10px;
+  background: #ffb752;
+  color: #fff;
+}
+.product-list .product-btn .btn-left a i {
+  color: #fff;
+  margin-right: 5px;
+}
+.product-list .product-btn .btn-left a.delete {
+  border: 4px solid #d15b47;
+  background: #d15b47;
+}
+.product-list .product-btn .btn-left a.refund {
+  border: 4px solid #1ab394;
+  background: #1ab394;
+}
+.product-list .product-btn .btn-left a.whole {
+  border: 4px solid #6fb3e0;
+  background: #6fb3e0;
+}
+.product-list .product-btn .number {
+  line-height: 60px;
+  margin-right: 10px;
+}
+.product-list .table-list {
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.product-list .table-list table {
+  width: 98%;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  text-align: center;
+}
+.product-list .table-list table thead tr {
+  height: 50px;
+  color: #333;
+}
+.product-list .table-list table tbody {
+  font-size: 12px;
+}
+.product-list .table-list table tbody tr {
+  height: 40px;
+  color: #666;
+}
+.product-list .table-list table tbody tr td .dian {
+  font-size: 20px;
+  color: #1ab394;
+  vertical-align: middle;
+}
+.product-list .table-list table tbody tr td span {
+  vertical-align: middle;
+  color: #1ab394;
+}
+.product-list .table-list table tbody tr td a {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  color: #fff;
+  border-radius: 5px;
+  line-height: 20px;
+  background: #87b87f;
+  margin-right: 10px;
+}
+.product-list .table-list table tbody tr td a.blue {
+  background: #6fb3e0;
+}
+.product-list .table-list table tbody tr td a.yellow {
+  background: #ffb752;
+}
+.product-list .table-list table tbody tr td a i {
+  color: #fff;
+  font-size: 14px;
+}
+.product-list .table-list table tbody tr td.message {
+  width: 400px;
+  color: #d15b47;
+  line-height: 26px;
+}
+.product-list .table-list.mangaement tbody tr td {
+  word-wrap: break-word;
+  word-break: break-all;
+  font-family: "新宋体";
+  text-align: center;
+}
+.product-list .table-list.mangaement tbody tr td a img {
+  display: inline-block;
+  border: 1px solid #dddddd;
+  width: 45px;
+  height: 45px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.product-list .table-list.mangaement tbody tr td .jia {
+  display: inline-block;
+  margin-left: 16px;
+  color: #000;
+}
